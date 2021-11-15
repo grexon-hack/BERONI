@@ -58,22 +58,28 @@ header .franjas .negro2 ul li:hover{
     height: 600px;
 }
 .carousel{
-    width: 80%;
-    float: left;
+    width: 70%;
+   
    margin: 20px;
     margin-left:40px ;
+    border-radius: 20px;
+    overflow: hidden;
 }
 .container1 .hombres{
     margin-top: 30px;
     width: 100%;
     height: 640px;
     background-color: rgba(8, 152, 248, 0.247);
-    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow-wrap:break-word;
 }
 .hombres .letras{
-    float: right;
+    width: 25%;
+    
     height: 600px;
-    margin-right: 50px;
+    margin-right: 10px;
 }
 .hombres .letras>h1{
     font-size: 50px;
@@ -85,24 +91,28 @@ header .franjas .negro2 ul li:hover{
     text-align: center;
     font-size: 30px;
 }
-.mujeres{
+.container1 .mujeres{
+    margin-top: 30px;
     width: 100%;
     height: 640px;
-    background-color: pink;
+    background-color: rgba(248, 8, 148, 0.247);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow-wrap:break-word;
 }
 .mujeres .letras2{
-    float: left;
+    width: 25%;
+    
     height: 600px;
-    margin-left: 50px;
+    margin-left: 10px;
 }
 .mujeres .letras2>h1{
     font-size: 50px;
     text-align: center;
     margin: 30px;
 }
-.mujeres #carouselExampleIndicators{
-    float: right;
-}
+
 
 .mayoreo{
     width: 100%;
